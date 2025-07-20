@@ -1,0 +1,107 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+  padding-bottom: 100px;
+}
+
+/* Header and Nav */
+header {
+  background: #111;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Hero Section */
+#hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #eee;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#hero .btn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Sections */
+section {
+  padding: 3rem 2rem;
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills-list li {
+  background: #ddd;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Project Cards */
+.project-card {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 5px solid #333;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+}
